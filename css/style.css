@@ -429,6 +429,10 @@
 		align-items: center;
 	}
 
+	.brands__img {
+		display: block;
+	}
+
 	.comments {
 		background-color: #ececec;
 		border-top: 1px solid: #d8d8d8;
@@ -1501,19 +1505,7 @@
 
 	.brands__wrap {
 		width: 282px;
-		margin: 35px auto 0 auto;
-	}
-
-	.brands__img-wrap {
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-		margin-left: 58px;
-	}
-
-	.brands__img {
-		margin-right: 45px;
-		margin-bottom: 31px;
+		margin: 35px auto;
 	}
 
 	.comments {
@@ -2007,19 +1999,7 @@
 
 	.brands__wrap {
 		width: 282px;
-		margin: 35px auto 0 auto;
-	}
-
-	.brands__img-wrap {
-		display: flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-		margin-left: 40px;
-	}
-
-	.brands__img {
-		margin-right: 54px;
-		margin-bottom: 31px;
+		margin: 35px auto;
 	}
 
 	.page-footer {

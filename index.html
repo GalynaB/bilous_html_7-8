@@ -14,26 +14,45 @@
           <div class="main-nav__logo-wrap">
             <a href="#" class="main-nav__logo-link">Pingbull<span class="main-nav__logo-link--violet">er</span></a>
           </div>
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Home</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">About</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Blog</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Products</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Lorem Ipsum</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link">Dolor Sit Amet</a>
-            </li>
-          </ul>
+          <div class="main-nav__list-wrap">
+            <ul class="main-nav__list">
+              <li class="main-nav__list-item">
+                <a href="#" class="main-nav__link">Home</a>
+                  <ul class="main-nav__submenu hidden768 hidden960">
+                    <li class="submain-nav__list-item">
+                      <a href="#" class="main-nav__link active">About</a>
+                    </li>
+                    <li class="submain-nav__list-item">
+                      <a href="#" class="main-nav__link">Blog</a>
+                    </li>
+                    <li class="submain-nav__list-item">
+                      <a href="#" class="main-nav__link">Products</a>
+                    </li>
+                    <li class="submain-nav__list-item">
+                      <a href="#" class="main-nav__link">Lorem Ipsum</a>
+                    </li>
+                    <li class="main-nav__list-item">
+                      <a href="#" class="main-nav__link">Dolor Sit Amet</a>
+                    </li>
+                  </ul>
+              </li>
+              <li class="main-nav__list-item hidden480 hidden320">
+                <a href="#" class="main-nav__link active">About</a>
+              </li>
+              <li class="main-nav__list-item hidden480 hidden320">
+                <a href="#" class="main-nav__link">Blog</a>
+              </li>
+              <li class="main-nav__list-item hidden480 hidden320">
+                <a href="#" class="main-nav__link">Products</a>
+              </li>
+              <li class="main-nav__list-item hidden480 hidden320">
+                <a href="#" class="main-nav__link">Lorem Ipsum</a>
+              </li>
+              <li class="main-nav__list-item hidden480 hidden320">
+                <a href="#" class="main-nav__link">Dolor Sit Amet</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </div>
       <div class="header-slider">
@@ -43,13 +62,14 @@
           </article>-->
           <article class="header-slider__item">
             <h1 class="header-slider__title">Lorem Ipsum Dolor</h1>
-            <h2 class="header-slider__subtitle">It will make all of your dreams come true</h2>
-            <div class="header-slider__text">
-              <p class="header-slider__paragraph">Semper sollicitudin gravida eget, vestibulum sit amet sapien. Nunc dignissim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</p>
+            <h2 class="header-slider__subtitle">It will make all of your dreams come <span class="hidden768 hidden480 hidden320">true</span></h2>
+            <div class="header-slider__text hidden480 hidden320">
+              <p class="header-slider__paragraph">Semper sollicitudin gravida eget, ves-tibulum sit amet sapien. Nunc dignis-sim tincidunt est, et auctor turpis ornare a. Nam venenatis hendrerit est <span class="hidden768">at volutpat. Morbi elementum euismod lacus id semper. In odio nunc, imperdiet eget aliquam quis, euismod id lectus. Nulla interdum arcu et felis aliquam a tempus lectus lobortis.</span></p>
             </div>
           </article>
-          <div class="header-slider__img-wrap">
-            <img src="img/iPhone4.png" alt="iPhone4">
+          <div class="header-slider__img-wrap hidden320">
+            <img class="hidden480" src="img/iPhone4.png" alt="iPhone4">
+            <img class="hidden960 hidden768" src="img/iPhone4-mini.png" alt="iPhone4">
           </div>
           <!--<article class="header-slider__item">
           ...
@@ -74,17 +94,17 @@
       <div class="about-block__wrap">
         <div class="about-block-item__wrap">
           <h2 class="about-block__title">About our company</h2>
-          <p class="about-block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+          <p class="about-block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="hidden320">ultrices po-suere. Pel-lentesque vel lacus <span class="hidden768">eget nisi convallis auctor. Nam</span></span></p>
           <a href="#" class="about-block__link">Read more</a>
         </div>
         <div class="about-block-item__wrap--center">
           <h2 class="about-block__title">About our company</h2>
-          <p class="about-block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+          <p class="about-block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="hidden320">ultrices po-suere. Pel-lentesque vel lacus <span class="hidden768">eget nisi convallis auctor. Nam</span></span></p>
           <a href="#" class="about-block__link">Read more</a>
         </div>
         <div class="about-block-item__wrap--right">
           <h2 class="about-block__title">About our company</h2>
-          <p class="about-block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
+          <p class="about-block__text">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus <span class="hidden320">ultrices po-suere. Pel-lentesque vel lacus <span class="hidden768">eget nisi convallis auctor. Nam</span></span></p>
           <a href="#" class="about-block__link">Read more</a>
         </div>
       </div>
@@ -98,12 +118,15 @@
               ....
             </article>-->
             <article class="news-blog__item">
-              <h2 class="news__header">Pingbuller <span class="news__header--light">starts here</span></h2>
+              <div class="news__header-wrap">
+                <h2 class="news__header">Pingbuller</h2>
+                <h2 class="news__header news__header--light">starts here</h2>
+              </div>
               <div class="news-blog__img-wrap">
                 <img src="img/blog-photo1.png" alt="photo1">
               </div>
               <div class="news-blog__text">
-                <p class="news-blog__paragraph">“Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pulvinar urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</p>
+                <p class="news-blog__paragraph">“Nunc turpis neque, feu-giat eget eleifend et, lacinia non neque. Prae-sent rhoncus ultrices po-suere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae <span class="hidden320">lectus eu libero pellentesque pulvinar <span class="hidden768">urna risus, mattis pulvinar bibendum in, venenatis quis neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”</span></span></p>
                </div>
             </article>
             <!--<article class="news-blog__item">
@@ -125,34 +148,38 @@
 
         <div class="news-events">
           <div class="news-events__wrap">
-            <h2 class="news__header">Recent updates</h2>
+            <h2 class="news__header news__header--biger">Recent updates</h2>
             <ul class="news-events__list">
               <li class="news-event__item">
                 <div class="news-event__img-wrap">
                   <img src="img/event1.png" alt="event1">
                 </div>
-                <h3 class="news-event__title">Nunc turpis neque feugiat eget</h3>
-                <div class="news-event__text">Posted by Admin on March 13 2012 in Recent News</div>
+                <h3 class="news-event__title">Nunc turpis neque <span class="hidden320">feugiat eget</span></h3>
+                <div class="news-event__text">Posted by Admin on March 13<span class="hidden320">2012<span class="hidden768 hidden480"> in Recent News</span></span></div>
               </li>
               <li class="news-event__item">
                 <div class="news-event__img-wrap"><img src="img/event2.png" alt="event2"></div>
-                <h3 class="news-event__title">Nunc turpis neque feugiat eget</h3>
-                <div class="news-event__text">Posted by Admin on March 13 2012 in Category</div>
+                <h3 class="news-event__title">Nunc turpis neque <span class="hidden320">feugiat eget</span></h3>
+                <div class="news-event__text">Posted by Admin on March 13<span class="hidden320"> 2012<span class="hidden768 hidden480 hidden320"> in Category</span></span></div>
               </li>
               <li class="news-event__item">
                 <div class="news-event__img-wrap"><img src="img/event3.png" alt="event3"></div>
-                <h3 class="news-event__title">Nunc turpis neque feugiat eget</h3>
-                <div class="news-event__text">Posted by Admin on March 13 2012 in Blog Updates</div>
+                <h3 class="news-event__title">Nunc turpis neque <span class="hidden320">feugiat eget</span></h3>
+                <div class="news-event__text">Posted by Admin on March 13<span class="hidden320"> 2012<span class="hidden768 hidden480 hidden320"> in Blog Updates</span></span></div>
               </li>
             </ul>
-            <a href="#" class="news-event__more-link">Read more here</a>
+            <a href="#" class="news-event__more-link"><span class="hidden768 hidden480 hidden320">Read more here</span></span><span class="hidden960">More blog posts</span></a>
           </div>
         </div>
       </div>
     </section>
 
     <section class="brands">
-      <div class="brands__img-wrap">
+      <div class="brands__wrap">
+        <a href="#" class="hidden960 hidden768 hidden320"><img src="img/brands480.png" alt="brand1"></a>
+        <a href="#" class="hidden960 hidden768 hidden480"><img src="img/brands320.png" alt="brand1"></a>
+      </div>
+      <div class="brands__img-wrap hidden480 hidden320">
         <a href="#" class="brands__img"><img src="img/brand1.png" alt="brand1"></a>
         <a href="#" class="brands__img"><img src="img/brand2.png" alt="brand2"></a>
         <a href="#" class="brands__img"><img src="img/brand3.png" alt="brand3"></a>
@@ -162,47 +189,49 @@
       </div>
     </section>
 
-    <section class="comments">
+    <section class="comments hidden320">
       <div class="comments__wrap">
         <article class="comment__item">
-          <div class="comments__logo-wrap">
-            <a href="#" class="comments__logo-link">Pigbull<span class="comments__logo-link--light">er</span></a>
+          <div class="comments__logo-wrap hidden768 hidden480">
+            <a href="#" class="comments__logo-link">Pingbull<span class="comments__logo-link--light">er</span></a>
           </div>
-          <i class="comment__time">Copyright 2013, Pingbull AS</i>
-          <p class="comment-text">Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
+          <i class="comment__time hidden768 hidden480">Copyright 2013, Pingbull AS</i>
+          <h2 class="comment-news__header hidden960">News categories</h2>
+          <p class="comment-text">Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellen-tesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="hidden768">pul-<span class="hidden960">vinar. Quisque urna risus, mattis pulvin-ar biben-<span class="hidden480">dum in, venenatis quis</span></span></span></p>
         </article>
         <article class="comment__item--center">
-          <h2 class="news__header">Recent comments</h2>
-          <p class="comment-text">Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-vinar. Quisque urna risus, mattis pulvin-ar bibendum in, venenatis quis</p>
+          <h2 class="comment-news__header hidden768 hidden480">Recent comments</h2>
+          <h2 class="comment-news__header hidden960">News categories</h2>
+          <p class="comment-text">Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellen-tesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="hidden768">pul-vinar. Quisque urna risus, mattis pulvin-ar biben-<span class="hidden480">dum in, venenatis quis</span></span></p>
         </article>
         <article class="comment__item--right">
-          <h2 class="news__header">News categories</h2>
-          <p class="comment-text">Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-vinar. Quisque urna risus, mattis pulvin-ar bibendum in, venenatis quis</p>
+          <h2 class="comment-news__header">News categories</h2>
+          <p class="comment-text">Nunc turpis neque, feugiat eget eleif-end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellen-tesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque <span class="hidden768">pul-vinar. Quisque urna risus, mattis pulvin-ar biben-<span class="hidden480">dum in, venenatis quis</span></span></p>
         </article>
       </div>
     </section>
 
     <footer class="page-footer">
       <div class="page-footer__wrap">
-        <div class="page-footer__nav-wrap">
+        <div class="page-footer__nav-wrap hidden320">
           <ul class="main-nav__list--footer">
-            <li class="main-nav__list-item">
+            <li class="main-nav__list-item--footer">
               <a href="#" class="main-nav__link--footer">Home</a>
             </li>
-            <li class="main-nav__list-item">
+            <li class="main-nav__list-item--footer">
               <a href="#" class="main-nav__link--footer">About</a>
             </li>
-            <li class="main-nav__list-item">
+            <li class="main-nav__list-item--footer">
               <a href="#" class="main-nav__link--footer">Blog</a>
             </li>
-            <li class="main-nav__list-item">
+            <li class="main-nav__list-item--footer">
               <a href="#" class="main-nav__link--footer">Products</a>
             </li>
-            <li class="main-nav__list-item">
+            <li class="main-nav__list-item--footer">
               <a href="#" class="main-nav__link--footer">Lorem Ipsum</a>
             </li>
-            <li class="main-nav__list-item">
-              <a href="#" class="main-nav__link--footer">Dolor Si Amet</a>
+            <li class="main-nav__list-item--footer">
+              <a href="#" class="main-nav__link--footer">Dolor Sit Amet</a>
             </li>
           </ul>
         </div>
