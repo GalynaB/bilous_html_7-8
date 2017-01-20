@@ -53,17 +53,17 @@
 	  -webkit-text-fill-color: transparent;
 	}
 
+	.main-nav__list-wrap {
+		flex: 0 0 633px;
+		padding-top: 10px;
+	}
+
 	.main-nav__list {
 		font-family: "League Gothic";
 	  text-transform: uppercase;
-	  flex: 0 0 632px;
 	  display: flex;
 	  justify-content: space-between;
 	  align-items: center;
-	}
-
-	.main-nav__list-item {
-		padding-bottom: 10px;
 	}
 
 	.main-nav__link {
@@ -124,7 +124,7 @@
 	  font-family: "League Gothic";
 	  font-size: 60px;
 	  font-weight: 400;
-	  color: #fff;
+	  color: #fefefe;
 		letter-spacing: -1px;
 	  padding-top: 79px;
 	}
@@ -305,14 +305,15 @@
 		min-height: 176px;
 		background-color: #fff;
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-		padding: 31px 10px 0 39px;
+		padding: 31px 0 0 39px;
 	}
 
 	.news__header-wrap {
 		display: flex;
 	}
 
-	.news__header {
+	.news__header,
+	.comment-news__header {
 		font-family: "League Gothic";
 		text-shadow: 1px 1px 0 #ffffff;
 		font-size: 30px;
@@ -428,10 +429,6 @@
 		align-items: center;
 	}
 
-	.brands__img {
-		display: block;
-	}
-
 	.comments {
 		background-color: #ececec;
 		border-top: 1px solid: #d8d8d8;
@@ -504,7 +501,7 @@
 	.page-footer__nav-wrap {
 		font-family: "League Gothic";
 		text-transform: uppercase;
-		flex-basis: 536px;
+		flex-basis: 533px;
 	}
 
 	.main-nav__list--footer {
@@ -522,6 +519,7 @@
 
 	.page-footer__design {
 		font-size: 12px;
+		line-height: 16px;
 		color: #fff;
 		text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 		align-self: center;
@@ -588,16 +586,17 @@
 	  -webkit-text-fill-color: transparent;
 	}
 
+	.main-nav__list-wrap {
+		width: 632px;
+		margin-top: 28px;
+	}
+
 	.main-nav__list {
 		font-family: "League Gothic";
 	  text-transform: uppercase;
 	  display: flex;
+		justify-content: space-between;
 		flex-grow: 1;
-		margin-left: -26px;
-	}
-
-	.main-nav__list-item {
-		margin: 28px 27px 0;
 	}
 
 	.main-nav__link {
@@ -659,7 +658,7 @@
 	  font-family: "League Gothic";
 	  font-size: 48px;
 	  font-weight: 400;
-	  color: #fff;
+	  color: #fefefe;
 		letter-spacing: -0.7px;
 	  padding-top: 99px;
 		padding-bottom: 8px;
@@ -673,7 +672,7 @@
 	  text-transform: uppercase;
 	}
 
-		.header-slider__text {
+	.header-slider__text {
 	  color: #fff;
 	  font-size: 16px;
 		line-height: 27px;
@@ -842,10 +841,11 @@
 		min-height: 241px;
 		background-color: #fff;
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-		padding: 31px 10px 0 39px;
+		padding: 31px 0 0 39px;
 	}
 
-	.news__header {
+	.news__header,
+	.comment-news__header {
 		font-family: "League Gothic";
 		text-shadow: 1px 1px 0 #ffffff;
 		font-size: 24px;
@@ -905,7 +905,12 @@
 	}
 
 	.news__header--biger {
+		font-family: "League Gothic";
+		text-shadow: 1px 1px 0 #ffffff;
 		font-size: 30px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: #454545;
 		margin-left: -2px;
 		letter-spacing: -0.5px;
 	}
@@ -960,7 +965,7 @@
 
 	.brands__img-wrap {
 		max-width: 725px;
-		min-height: 119px;
+		min-height: 121px;
 		margin: 0 auto;
 		display: flex;
 		justify-content: space-between;
@@ -1017,13 +1022,13 @@
 	.page-footer__nav-wrap {
 		font-family: "League Gothic";
 		text-transform: uppercase;
-		display: block;
+		padding-top: 45px;
+		width: 528px;
 	}
 
 	.main-nav__list--footer {
 		display: flex;
-		margin-left: -25px;
-		padding-top: 17px;
+		justify-content: space-between;
 	}
 
 		.main-nav__link--footer {
@@ -1066,15 +1071,15 @@
 
 	.page-header {
 	  background: #ead2d5 url("../img/background.jpg") -968px 0 no-repeat;
-		min-height: 440px;
+		min-height: 549px;
 		border-bottom: 1px solid #33253a;
 	}
 
 	.page-header__nav-wrap {
-	  max-width: 244px;
+	  max-width: 247px;
 	  margin: 0 auto;
 	  padding-top: 67px;
-		margin-bottom: 24px;
+		margin-bottom: 26px;
 
 	}
 
@@ -1088,6 +1093,7 @@
 
 	.main-nav__logo-link {
 	  font-size: 48px;
+		letter-spacing: -0.3px;
 	  color: #fff;
 	  font-weight: 400;
 		text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
@@ -1101,31 +1107,69 @@
 	  -webkit-text-fill-color: transparent;
 	}
 
-/*	.main-nav__list {
+	.main-nav__logo-wrap {
+		margin-bottom: 16px;
+	}
+
+	.main-nav__list,
+	.main-nav__submenu {
 		font-family: "League Gothic";
 	  text-transform: uppercase;
-	  display: flex;
-		flex-grow: 1;
-		margin-left: -26px;
+		background-color: #3b2e43;
+		background-color: rgba(59, 46, 67, 0.9);
+		border: 1px solid #051116;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		border-radius: 10px;
+		position: relative;
+		width: 247px;
 	}
 
 	.main-nav__list-item {
-		margin: 28px 27px 0;
+		padding-top: 2px;
+	}
+
+	.main-nav__list-item,
+	.submain-nav__list-item {
+		box-shadow: inset 0 -1px 0 rgba(105, 82, 114, 0.59);
+	}
+
+	.main-nav__submenu {
+		position: absolute;
+		z-index: 2;
+		left: -1px;
+		display: none;
+	}
+
+	.main-nav__list:hover {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.main-nav__list:hover .main-nav__submenu {
+		display: block;
+		border-radius: 0 0 10px 10px;
 	}
 
 	.main-nav__link {
 		font-size: 24px;
+		line-height: 42px;
 		text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
 	  text-transform: uppercase;
-		letter-spacing: -0.4px;
+		letter-spacing: -0.3px;
 	  color: #fff;
 	  text-decoration: none;
 	}
 
-	.main-nav__list-item:hover {
+	.main-nav__link:hover {
+		display: inline;
 	  border-bottom: 2px solid #edbfff;
 	  margin-bottom: -2px;
-	}*/
+	}
+
+	.main-nav__link:active {
+		background-color: rgba(44,35,50, 0.9);
+		margin-bottom: -2px;
+		display: block;
+	}
 
 	.header-slider {
 	  background-color: rgba(0, 0, 0, 0.2);
@@ -1140,8 +1184,9 @@
 		background: url("../img/sprite.png") no-repeat;
 		background-position: -1px -128px;
 		position: absolute;
-		left: -11px;
-		top: 183px;
+		left: -23px;
+		top: 108px;
+
 	}
 
 	.header-slider__wrap::after {
@@ -1152,59 +1197,51 @@
 		background: url("../img/sprite.png") no-repeat;
 		background-position: -4px -79px;
 		position: absolute;
-		top: 183px;
-		right: -11px;
+		top: 108px;
+		right: -25px;
 	}
 
 	.header-slider__wrap {
-	  max-width: 728px;
+	  max-width: 440px;
 	  margin: 0 auto;
 		position: relative;
 	}
 
-	/*.header-slider__item {
-	  max-width: 272px;
+	.header-slider__item {
+	  max-width: 201px;
 	  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-		padding-left: 24px;
+		padding-left: 20px;
 	}
 
 	.header-slider__title {
 	  font-family: "League Gothic";
-	  font-size: 48px;
+	  font-size: 36px;
 	  font-weight: 400;
-	  color: #fff;
+	  color: #fefefe;
 		letter-spacing: -0.7px;
-	  padding-top: 99px;
-		padding-bottom: 8px;
+	  padding-top: 95px;
+		padding-bottom: 2px;
 	}
 
 	.header-slider__subtitle {
 	  font-family: "League Gothic";
-	  font-size: 24px;
+	  font-size: 18px;
 		letter-spacing: -0.3px;
 	  color: #edbfff;
 	  text-transform: uppercase;
 	}
 
-		.header-slider__text {
-	  color: #fff;
-	  font-size: 16px;
-		line-height: 27px;
-		letter-spacing: -0.2px;
-		padding-top: 5px;
-	}
-
 	.header-slider__img-wrap {
 	  position: absolute;
-	  left: 427px;
-	  top: -23px;
+	  left: 237px;
+	  top: -8px;
 	}
 
 	.slider__pagination-wrap {
 		position: absolute;
 		z-index: 1;
-		left: 522px;
-		top: 437px;
+		left: 183px;
+		top: 268px;
 	}
 
 	.slider__pagination {
@@ -1240,17 +1277,16 @@
 	}
 
 	.about-block__wrap {
-		max-width: 732px;
-		min-height: 264px;
+		max-width: 440px;
+		min-height: 520px;
 		margin: 0 auto;
-		display: flex;
 		padding-top: 77px;
 	}
 
 	.about-block-item__wrap {
-		flex: 0 0 156px;
-		margin-left: 60px;
+		margin-left: 62px;
 		position: relative;
+		margin-bottom: 25px;
 	}
 
 	.about-block-item__wrap::before {
@@ -1266,8 +1302,8 @@
 	}
 
 	.about-block-item__wrap--center {
-		flex: 0 0 156px;
-		margin-left: 102px;
+		margin-left: 62px;
+		margin-bottom: 25px;
 		position: relative;
 	}
 
@@ -1284,8 +1320,7 @@
 	}
 
 	.about-block-item__wrap--right {
-		flex: 0 0 156px;
-		margin-left: 102px;
+		margin-left: 62px;
 		position: relative;
 	}
 
@@ -1307,15 +1342,15 @@
 		color: #fff;
 		font-size: 24px;
 		text-transform: uppercase;
-		margin-left: 2px;
-		margin-bottom: 4px;
+		margin-bottom: 2px;
+		letter-spacing: -0.1px;
 	}
 
 	.about-block__text {
 		color: #ffffff;
 		text-shadow: 1px 1px 0 #0f1518;
 		line-height: 24px;
-		margin-bottom: 6px;
+		margin-bottom: 12px;
 	}
 
 	.about-block__link {
@@ -1328,7 +1363,7 @@
 		text-decoration: none;
 		display: block;
 		text-align: right;
-		padding-right: 8px;
+		padding-right: 6px;
 	}
 
 	.news {
@@ -1337,34 +1372,33 @@
 	}
 
 	.news__wrap {
-		max-width: 732px;
+		max-width: 440px;
 		margin: 0 auto;
-		min-height: 388px;
-		display: flex;
-		padding-top: 98px;
+		min-height: 199px;
+		padding-top: 68px;
 	}
 
 	.news-blog__wrap {
 		margin-left: 24px;
-		margin-right: 59px;
 		position: relative;
 	}
 
 	.news-blog__item {
-		flex: 0 0 313px;
-		min-height: 241px;
+		min-height: 243px;
 		background-color: #fff;
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-		padding: 31px 10px 0 39px;
+		padding: 30px 0 0 39px;
 	}
 
-	.news__header {
+	.news__header,
+	.comment-news__header {
 		font-family: "League Gothic";
 		text-shadow: 1px 1px 0 #ffffff;
-		font-size: 24px;
+		font-size: 30px;
 		font-weight: 400;
 		text-transform: uppercase;
 		color: #454545;
+		display: inline-block;
 	}
 
 	.news__header--light {
@@ -1381,14 +1415,14 @@
 		color: #454545;
 		text-shadow: 1px 1px 0 #fff;
 		line-height: 24px;
-		letter-spacing: -0.5px;
-		padding: 10px 20px 10px 0;
+		letter-spacing: -0.4px;
+		padding: 10px 40px 0 0;
 	}
 
 	.slider__pagination-wrap--white {
 		position: absolute;
 		z-index: 1;
-		left: 118px;
+		left: 161px;
 		top: 297px;
 	}
 
@@ -1413,17 +1447,12 @@
 	}
 
 	.news-events__wrap {
-		padding-top: 31px;
-		flex: 0 0 336px;
+		margin: 89px 0 0 62px;
+		width: 376px;
+		margin-bottom: 88px;
 	}
 
-	.news__header--biger {
-		font-size: 30px;
-		margin-left: -2px;
-		letter-spacing: -0.5px;
-	}
-
-	.news-events__list {
+		.news-events__list {
 		text-shadow: 1px 1px 0 #ffffff;
 		color: #454545;
 		line-height: 24px;
@@ -1438,7 +1467,7 @@
 
 	.news-event__title {
 		font-weight: 700;
-		padding-left: 65px;
+		padding-left: 66px;
 		letter-spacing: 0.2px;
 	}
 
@@ -1448,8 +1477,8 @@
 	}
 
 	.news-event__text {
-		padding-left: 65px;
-		letter-spacing: -0.3px;
+		padding-left: 66px;
+		letter-spacing: -0.1px;
 	}
 
 	.news-event__more-link {
@@ -1462,8 +1491,8 @@
 		text-decoration: none;
 		text-align: right;
 		display: block;
-		padding-top: 20px;
-		padding-right: 5px;
+		padding-top: 21px;
+		padding-right: 34px;
 	}
 
 	.brands {
@@ -1471,17 +1500,21 @@
 		border: 1px solid #fefefe;
 	}
 
+	.brands__wrap {
+		width: 440px;
+		margin: 35px auto 0 auto;
+	}
+
 	.brands__img-wrap {
-		max-width: 725px;
-		min-height: 119px;
-		margin: 0 auto;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		margin-left: 58px;
 	}
 
 	.brands__img {
-		display: block;
+		margin-right: 45px;
+		margin-bottom: 31px;
 	}
 
 	.comments {
@@ -1490,31 +1523,32 @@
 	}
 
 	.comments__wrap {
-		max-width: 732px;
-		min-height: 295px;
+		max-width: 440px;
+		min-height: 589px;
 		margin: 0 auto;
-		padding-top: 101px;
-		display: flex;
-		justify-content: flex-start;
+		padding-top: 81px;
 	}
 
-	.comment__item {
-		flex: 0 0 210px;
+	.comment-news__header {
+		font-size: 24px;
+		letter-spacing: -0.1px;
 	}
 
-	.comment__item--center {
-		margin-left: 55px;
-		flex: 0 0 210px;
+	.comment__item,
+	.comment__item--center	{
+		margin-bottom: 55px;
 	}
 
-	.comment__item--right {
-		flex: 0 0 210px;
-		margin-left: 55px;
+	.comment__item,
+	.comment__item--center,
+	.comment__item--right	{
+		margin-left: -2px;
 	}
 
 	.comment-text {
 		padding-top: 10px;
 		line-height: 24px;
+		letter-spacing: -0.3px;
 	}
 
 	.page-footer {
@@ -1522,7 +1556,7 @@
 	}
 
 	.page-footer__wrap {
-		max-width: 732px;
+		max-width: 440px;
 		height: 201px;
 		margin: 0 auto;
 	}
@@ -1530,13 +1564,12 @@
 	.page-footer__nav-wrap {
 		font-family: "League Gothic";
 		text-transform: uppercase;
-		display: block;
+		padding-top: 43px;
 	}
 
 	.main-nav__list--footer {
 		display: flex;
-		margin-left: -25px;
-		padding-top: 17px;
+		justify-content: space-between;
 	}
 
 		.main-nav__link--footer {
@@ -1551,7 +1584,7 @@
 		font-size: 12px;
 		color: #fff;
 		text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
-		text-align: right;
+		text-align: center;
 		margin-top: 34px;
 	}
 
@@ -1559,6 +1592,6 @@
 		font-weight: 700;
 		text-decoration: none;
 		color: #fff;
-	}*/
+	}
 
 }
