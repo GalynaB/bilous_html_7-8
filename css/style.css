@@ -22,7 +22,7 @@
 	.page-header {
 		min-height: 846px;
 
-		border-bottom: 1px solid #33253a;
+		border-bottom: 1px solid #33253a;
 		background: #ead2d5 url("../img/background.jpg") -480px 0 no-repeat;
 	}
 
@@ -230,9 +230,8 @@
 
 	/*section about company*/
 	.about-block {
-		border-bottom: 1px solid #f9f9f9;
-		background-color: #745083;
-		background-image: linear-gradient(#745083, #322539);
+		border-bottom: 1px solid #f9f9f9;
+		background-color: #745083;		background-image: linear-gradient(#745083, #322539);
 		box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
 	}
 
@@ -355,7 +354,7 @@
 
 	/*news section*/
 	.news {
-		border-bottom: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
 		background-color: #f9f9f9;
 	}
 
@@ -371,7 +370,8 @@
 	.news-blog__wrap {
 		position: relative;
 
-		margin: 0 64px 0 24px;	}
+		margin: 0 64px 0 24px;
+	}
 
 	/*blog*/
 	.news-blog__item {
@@ -469,7 +469,7 @@
 		box-sizing: border-box;
 		width: 445px;
 
-		color: #454545;
+		color: #454545;
 		text-shadow: 1px 1px 0 #ffffff;
 
 		line-height: 24px;
@@ -515,7 +515,7 @@
 
 	/*brands section*/
 	.brands {
-		border: 1px solid #fefefe;
+		border: 1px solid #fefefe;
 		background-color: #f9f9f9;
 	}
 
@@ -536,7 +536,7 @@
 
 	/*news categories section*/
 	.comments {
-		border-top: 1px solid #d8d8d8;
+		border-top: 1px solid #d8d8d8;
 		background-color: #ececec;
 	}
 
@@ -629,7 +629,7 @@
 	}
 
 	.main-nav__link--footer {
-		text-decoration: none;
+		text-decoration: none;
 		letter-spacing: 0.5px;
 
 		color: #fff;
@@ -2415,13 +2415,12 @@
 
 	/*brands section*/
 	.brands {
-		border: 1px solid #fefefe;
-		background-color: #f9f9f9;
+		border: 1px solid #fefefe;		background-color: #f9f9f9;
 	}
 
 	.brands__wrap {
 		width: 237px;
-		margin: 52px auto 72px auto;;
+		margin: 52px auto 72px auto;
 	}
 
 	/*FOOTER*/
