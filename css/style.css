@@ -231,7 +231,8 @@
 	/*section about company*/
 	.about-block {
 		border-bottom: 1px solid #f9f9f9;
-		background-color: #745083;		background-image: linear-gradient(#745083, #322539);
+		background-color: #745083;
+		background-image: linear-gradient(#745083, #322539);
 		box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
 	}
 
@@ -673,7 +674,7 @@
 	.page-header {
 		min-height: 798px;
 
-		border-bottom: 1px solid #33253a;
+		border-bottom: 1px solid #33253a;
 		background: #ead2d5 url("../img/background.jpg") -824px 0 no-repeat;
 	}
 
@@ -879,7 +880,7 @@
 
 	/*section about company*/
 	.about-block {
-		border-bottom: 1px solid #f9f9f9;
+		border-bottom: 1px solid #f9f9f9;
 		background-color: #745083;
 		background-image: linear-gradient(#745083, #322539);
 		box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
@@ -1006,7 +1007,7 @@
 
 	/*news section*/
 	.news {
-		border-bottom: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
 		background-color: #f9f9f9;
 	}
 
@@ -1022,7 +1023,8 @@
 	.news-blog__wrap {
 		position: relative;
 
-		margin: 0 59px 0 24px;	}
+		margin: 0 59px 0 24px;
+	}
 
 	/*blog*/
 	.news-blog__item {
@@ -1127,7 +1129,7 @@
 		box-sizing: border-box;
 		width: 332px;
 
-		color: #454545;
+		color: #454545;
 		text-shadow: 1px 1px 0 #ffffff;
 
 		line-height: 24px;
@@ -1177,7 +1179,7 @@
 
 	/*brands section*/
 	.brands {
-		border: 1px solid #fefefe;
+		border: 1px solid #fefefe;
 		background-color: #f9f9f9;
 	}
 
@@ -1198,7 +1200,7 @@
 
 	/*news categories section*/
 	.comments {
-		border-top: 1px solid #d8d8d8;
+		border-top: 1px solid #d8d8d8;
 		background-color: #ececec;
 	}
 
@@ -1307,7 +1309,7 @@
 	.page-header {
 		min-height: 549px;
 
-		border-bottom: 1px solid #33253a;
+		border-bottom: 1px solid #33253a;
 		background: #ead2d5 url("../img/background.jpg") -968px 0 no-repeat;
 	}
 
@@ -1547,7 +1549,7 @@
 
 	/*section about company*/
 	.about-block {
-		border-bottom: 1px solid #f9f9f9;
+		border-bottom: 1px solid #f9f9f9;
 		background-color: #745083;
 		background-image: linear-gradient(#745083, #322539);
 		box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
@@ -1665,7 +1667,7 @@
 
 	/*news section*/
 	.news {
-		border-bottom: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
 		background-color: #f9f9f9;
 	}
 
@@ -1770,7 +1772,7 @@
 		box-sizing: border-box;
 		width: 332px;
 
-		color: #454545;
+		color: #454545;
 		text-shadow: 1px 1px 0 #ffffff;
 
 		line-height: 24px;
@@ -1820,7 +1822,7 @@
 
 	/*brands section*/
 	.brands {
-		border: 1px solid #fefefe;
+		border: 1px solid #fefefe;
 		background-color: #f9f9f9;
 	}
 
@@ -1831,7 +1833,7 @@
 
 	/*news categories section*/
 	.comments {
-		border-top: 1px solid #d8d8d8;
+		border-top: 1px solid #d8d8d8;
 		background-color: #ececec;
 	}
 
@@ -1938,7 +1940,7 @@
 	.page-header {
 		min-height: 516px;
 
-		border-bottom: 1px solid #33253a;
+		border-bottom: 1px solid #33253a;
 		background: #ead2d5 url("../img/background.jpg") -1048px 0 no-repeat;
 	}
 
@@ -2140,7 +2142,7 @@
 
 	/*section about company*/
 	.about-block {
-		border-bottom: 1px solid #f9f9f9;
+		border-bottom: 1px solid #f9f9f9;
 		background-color: #745083;
 		background-image: linear-gradient(#745083, #322539);
 		box-shadow: 0px 4px 30px 0px rgba(32, 25, 39, 0.3);
@@ -2258,7 +2260,7 @@
 
 	/*news section*/
 	.news {
-		border-bottom: 1px solid #e6e6e6;
+		border-bottom: 1px solid #e6e6e6;
 		background-color: #f9f9f9;
 	}
 
@@ -2365,7 +2367,7 @@
 		box-sizing: border-box;
 		width: 282px;
 
-		color: #454545;
+		color: #454545;
 		text-shadow: 1px 1px 0 #ffffff;
 
 		line-height: 24px;
@@ -2415,7 +2417,8 @@
 
 	/*brands section*/
 	.brands {
-		border: 1px solid #fefefe;		background-color: #f9f9f9;
+		border: 1px solid #fefefe;
+		background-color: #f9f9f9;
 	}
 
 	.brands__wrap {
