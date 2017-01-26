@@ -103,38 +103,6 @@
 		background-color: rgba(0, 0, 0, 0.2);
 	}
 
-	.header-slider__wrap::before {
-		position: absolute;
-		top: 183px;
-		left: -290px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -1px -128px;
-	}
-
-	.header-slider__wrap::after {
-		position: absolute;
-		top: 183px;
-		right: -290px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -4px -79px;
-	}
-
 	.header-slider__wrap {
 		position: relative;
 
@@ -767,38 +735,6 @@
 		min-height: 400px;
 
 		background-color: rgba(0, 0, 0, 0.2);
-	}
-
-	.header-slider__wrap::before {
-		position: absolute;
-		top: 183px;
-		left: -25px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -1px -128px;
-	}
-
-	.header-slider__wrap::after {
-		position: absolute;
-		top: 183px;
-		right: -25px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -4px -79px;
 	}
 
 	.header-slider__wrap {
@@ -1449,38 +1385,6 @@
 		background-color: rgba(0, 0, 0, 0.2);
 	}
 
-	.header-slider__wrap::before {
-		position: absolute;
-		top: 108px;
-		left: -23px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -1px -128px;
-	}
-
-	.header-slider__wrap::after {
-		position: absolute;
-		top: 108px;
-		right: -25px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -4px -79px;
-	}
-
 	.header-slider__wrap {
 		position: relative;
 
@@ -2051,38 +1955,6 @@
 	}
 
 	/*slider*/
-	.header-slider__wrap::before {
-		position: absolute;
-		top: 109px;
-		left: -21px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -1px -128px;
-	}
-
-	.header-slider__wrap::after {
-		position: absolute;
-		top: 109px;
-		right: -22px;
-
-		display: block;
-
-		width: 30px;
-		height: 42px;
-
-		content: "";
-
-		background: url("../img/sprite.png") no-repeat;
-		background-position: -4px -79px;
-	}
-
 	.header-slider__wrap {
 		position: relative;
 
